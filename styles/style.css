@@ -1,0 +1,84 @@
+
+
+body {
+    min-height: 100vh;
+    
+    text-align: center;
+    background-image:url("lets-play-a-game.jpeg");
+    background-position: center;
+  background-repeat: no-repeat;
+ 
+
+}
+
+.red{
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+.center{
+    position:fixed;
+    top:65%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    font-size: 2rem;
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    
+}
+h2{
+  
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: left;
+    border-radius: 5px;
+    
+}
+button {
+    margin: 0 15px;
+    font-size: 1.5rem;
+    
+}
+    
+span {
+    color:#fff;
+}
+
+
+@media screen and (max-width: 979px) {
+
+    .center{
+        position:fixed;
+        top:45%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    button {
+        margin: 0 10px;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .center{
+        position:fixed;
+        top:30%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+    h1 {
+        font-size: 1rem;
+    }
+    button {
+         margin: 0 2px;
+         font-size: 1rem;
+    }
+}
